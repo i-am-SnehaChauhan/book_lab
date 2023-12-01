@@ -26,5 +26,40 @@
 ### 5. Sorting and Filtering:
 <p> Provide options for sorting the search results by relevance, publication date, author, or other criteria. Additionally, allow users to apply filters based on genre, language, or other book attributes.</p>
 
+## How it Works
 
+## Getting Started
 
+To get started with SheEarns, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/sheEarns.git4
+
+2. Navigate to Directory ( to access the frontend)
+    ```bash
+    cd client
+    
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+4. Run the application:
+
+   ```bash
+   npm start
+
+5. For accessing the backend, Navigate to
+   ```bash
+   cd server
+
+6. Start the backend server
+   ```bash
+   npm run dev
+
+7. Now you can access the frontend on your localhost:3000 and backend on localhost:4000     
+
+ ### Contributing
+We welcome contributions from the community. If you find any issues or have suggestions for improvement, please feel free to submit a pull request. 
