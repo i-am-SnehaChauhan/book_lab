@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -186,3 +188,47 @@ html{
     text-align: justify;
     font-size: 13px;
 }
+
+/* Navbar styles */
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px; /* Adjust padding as needed */
+    background: rgb(71, 34, 9);
+    color: #D4B996FF;
+  }
+  
+.nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 15px; /* Adjust margin between nav items */
+    color: #D4B996FF;
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s ease-in-out;
+    border:0.5px solid white;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px
+  }
+  
+.nav-item:hover {
+    color: #ffffff;
+    transform: scale(1.2); /* Increase size on hover */
+  }
+  
+.login-btn {
+    background: #ffffff; /* Change button background color */
+    color: #755139FF;
+    border: none;
+    padding: 8px 15px; /* Adjust padding */
+    font-weight: bold;
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+.login-btn:hover {
+    background: #755139FF; /* Change button background color on hover */
+    color: #ffffff;
+  }
+  

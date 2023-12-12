@@ -1,9 +1,18 @@
 import React from 'react';
-import Card from './Card';   
+import Card from './Card';  
+import Navbar2 from './Navbar'; 
+
+
+
 
 const Main = () => {
+  
+    
+ 
   return (
     <>
+      <Navbar2 />
+
       <div className="header">
                 <div className="row1">
                     <h1>A room without books is like<br/> a body without a soul.</h1>
