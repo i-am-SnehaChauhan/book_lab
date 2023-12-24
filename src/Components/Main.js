@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './Card';  
 import Navbar2 from './Navbar'; 
-
-
+import Hero from "./hero"
+import Typewriter from './Typewriter';
 
 
 const Main = () => {
@@ -12,7 +12,8 @@ const Main = () => {
   return (
     <>
       <Navbar2 />
-
+      <Hero />
+      <Typewriter text="Read...Relax....Rejuvenate" delay={100} infinite />
       <div className="header">
                 <div className="row1">
                     <h1>A room without books is like<br/> a body without a soul.</h1>
