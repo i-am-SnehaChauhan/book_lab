@@ -3,7 +3,6 @@
 <table style="border: none;">
   <tr>
 <td>BookLab is a web application built using React that leverages the power of the Google Books API to provide users with a seamless and intuitive book search experience. With BookLab, users can easily explore an extensive collection of books, discover new titles, and access detailed information about their favorite reads.</td>
-  
 <td>
 <img align='center' src='https://github.com/i-am-SnehaChauhan/book_lab/assets/94298791/e72593b2-6ca2-4768-9dfc-2973adc433d0' width='100%' height='100%' /></td>
 </tr>
